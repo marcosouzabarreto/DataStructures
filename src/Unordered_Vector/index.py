@@ -39,7 +39,6 @@ class UnorderedVector:
         if idx == -1:
             return
 
-        print(idx, self.last_pos)
         for i in range(idx, self.last_pos):
             self.values[i] = self.values[i+1]
 
